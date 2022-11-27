@@ -1,0 +1,367 @@
+@media (max-width: 1140px) {
+    .container{
+        width: 90%;
+        margin: 0 auto;
+    }
+}
+@media (max-width: 1200px) {
+.music{
+    flex-flow: wrap;
+}
+    .header{
+        display: none;
+    }
+    .btn{
+        display: none;
+    }
+    .cart{
+        display: none;
+    }
+    .telephon{
+        display: none;
+    }
+    .dji img{
+        width: 90%;
+    }
+    .dron h1{
+        font-size: 36px;
+    }
+    .footer-icon{
+        display: none;
+    }
+    .cifra{
+        justify-content: space-around;
+
+    }
+    .cifra-nov h1{
+        font-size: 30px;
+    }
+    .cifra-nov h2 {
+        padding: 0 8px;
+        font-size: 16px;
+    }
+}
+@media (max-width: 1024px) {
+    .gorachi-input {
+        flex-flow: wrap;
+        padding: 60px 0 0 0;
+    }
+.hero{
+    flex-flow: wrap;
+}
+    .dron button {
+        margin: 20px 0;
+    }
+    .kalpak{
+        display: none;
+    }
+    .cifra-tell {
+        margin-left: 218px;
+        padding: 10px 0;
+        font-weight: 900;}
+    .cataloct-taitke{
+        margin-left: 400px;
+    }
+    #footer {
+        padding: 40px 0;
+    }
+   .footer{
+       margin: 0 147px;
+       justify-content: center;
+   }
+   .cifra{
+       margin: -77px 151px;
+
+       padding: 80px 20px;
+   }
+   .gorachi-input-w{
+       padding: 60px 149px;
+       display: flex;
+       align-items: center;
+       flex-flow: wrap;
+       justify-content: space-around;
+   }
+
+    .gorachi-input {
+        padding: 60px 198px;}
+
+    .cataloct {
+        margin: 20px 20px;
+        flex-wrap: wrap;
+    }
+
+    .cifra-nov h1 {
+        padding: 016px;
+        font-weight: 800;
+        font-size: 40px;}
+    .cifra-nov h2 {
+        padding: 016px;
+
+        font-size: 16px;}
+.cifra-nov{
+    align-items: center;
+    justify-content: space-around;
+    flex-flow: wrap;
+    padding: 0  102px;}
+}
+@media (max-width: 992px) {
+
+}
+@media (max-width: 768px) {
+    .vse {
+        width: 690px;
+    }
+.bloc{
+    position: absolute;
+    bottom: 40px;
+}
+    .se p {
+        padding: 5px 6px;
+
+        font-size: 10px;}
+    .ena h2{
+        font-size: 15px;
+    }
+    .cifra-nov h1{
+        font-size: 39px;
+    }
+    .cifra-nov {
+        align-items: center;
+        justify-content: space-around;
+        flex-flow: wrap;
+        padding: 0 1px;}
+    .gorachi-blocs h1 {
+        padding: 39px 50px;
+        font-weight: 900;
+        font-size: 12px;
+        color: #2A2D46;
+    }
+    .vse label {
+        font-size: 18px;
+    }
+
+
+
+    .dji {
+        width: 90%;
+        position: relative;
+        height: 90%;
+    }
+
+    .music-taitle img {
+        width: 90%;
+    }
+
+    .gorachi-blocs img {
+        width: 90%;
+    }
+
+    .vse h1 {
+        font-size: 15px;
+    }
+
+    .gorachi-input-w {
+        padding: 60px 73px;
+    }
+
+    .footer {
+        padding: 010px
+    }
+
+    .gorachi-blocs {
+        margin: 20px 0;
+        width: 186px;
+        height: 459px;}
+}
+    @media (max-width: 576px) {
+        .dji {
+            width: 90%;
+            position: relative;
+            height: 261px;
+        }
+        .bloc a{
+            left: 269px;
+        }
+
+        .mavic {
+            top: 90px;
+            left: 265px;
+        }
+
+
+        .mavic p {
+            font-size: 10px;
+        }
+
+        .mavic h1 {
+            font-size: 15px;
+        }
+
+        .blocs {
+            margin: 0 18px;
+            background: rgba(245, 238, 238, 0.23);
+            width: 29px;
+            height: 8px;
+        }
+
+        .blcs {
+            margin: 0 10px;
+            background: rgba(245, 238, 238, 0.91);
+            width: 29px;
+            height: 8px;
+        }
+
+        .dront h1 {
+            font-size: 32px;
+        }
+
+        .music-nov h1 {
+            padding: 9px 0;
+            font-size: 13px;
+            line-height: 121.4%;
+        }
+
+        .giveshin div {
+            left: 104px;
+            top: 188px;
+            width: 18px;
+        }
+
+        .cataloct-taitke {
+            margin-left: 63px;
+            font-size: 17px;}
+
+        .ses h1 {
+            padding: 01px 0;
+            font-size: 10px
+        }
+.bloc a {
+    position: absolute;
+    left: 396px;
+}
+
+.zamok0 {
+    padding-top: -16px;
+    display: flex;
+}
+
+.zamok {
+    width: 370px;
+    height: 5px;
+}
+
+.zamok div {
+    width: 37px;
+    height: 10px;
+}
+
+.footer-button p {
+    padding: 8px 0;
+    font-weight: 500;
+    font-size: 9px;
+}
+
+.cataloct {
+    margin: -20px 43px;
+}
+#music{
+    padding: 1px 0;
+}
+
+.ses {
+    display: flex;
+    justify-content: space-around;
+    flex-flow: wrap;
+    margin: -49px 79px;
+}
+
+.footer-nov h1 {
+    font-weight: 500;
+    font-size: 9px;
+    color: #FFFFFF;
+}
+
+.footer-nov p {
+    font-weight: 400;
+    font-size: 7px;
+    line-height: 13px;
+    color: #FFFFFF;
+}
+
+.footer-button a {
+    margin: 0 36px;
+    font-size: 20px;
+}
+
+.footer-button button {
+    width: 115px;
+    height: 24px;
+    font-size: 9px;
+}
+
+.footer-button h2 {
+    margin: -2px 32px;
+      font-size: 10px;
+}
+
+.footer-taitle img {
+    width: 90%;
+}
+
+.ses label {
+    margin: 10px 5px;
+}
+.cifra-nov h1{
+    font-size: 20px;
+    padding: 0 -40px;
+}
+.cifra-nov h2{
+    padding: 0 22px;
+    font-size: 15px;
+}
+.cifra-tell {
+    margin-left: 61px;
+    padding: -59px 0;
+    font-weight: 800;
+}
+.dron h1 {
+    font-size: 29px;
+}
+.oto {
+    width: 220px;
+    height: 100px;
+    top: 13px;
+    right: 90px;
+}
+
+.bloc a {
+    position: absolute;
+    left: 354px;
+}
+.dron button{
+    margin: 14px 107px;
+}
+        .dron p {
+            padding: 12px 0;
+            font-size: 15px;}
+    }
+.footer-button{
+    justify-content: space-around;
+}
+
+
+
+    @media (max-width: 451px) {
+
+    }
+    @media (max-width: 400px) {
+
+    }
+    @media (max-width: 357px) {
+
+    }
+    @media (max-width: 320px) {
+
+    }
+
+

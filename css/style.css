@@ -1,0 +1,527 @@
+*{
+  margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+#header{
+    padding: 70px;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.hedor-logor a{
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 16px;
+    color: #0C76D8;
+}
+.header-nav{
+    display: flex;
+    align-items: center;
+}
+.hedor-logo h1{
+    line-height: 13px;
+    font-weight: 400;
+    font-size: 11px;
+    color: #2A2D46;
+}
+.telephon a{
+    padding:  0 10px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #0C76D8;
+
+}
+.icon a{
+    font-size: 12px;
+color: black;
+}
+.nomer{
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 16px;
+    color: #2A2D46;
+
+}
+.btn button{
+    color: #EB2D66;
+    width: 130px;
+    height: 30px;
+    border: 1px solid #EB2D63;
+    background: transparent;
+}
+.car{
+    width: 30px;
+    height: 21px;
+    color: #EB2D66;
+}
+.cart a{
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    color: #2A2D46;
+
+}
+.dron h1{
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 44px;
+    color: #2A2D46;
+}
+.dron p{
+    padding: 40px 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+    color: #2A2D46;
+}
+.dron button{
+    border: none;
+    border-radius: 9px;
+    font-weight: 900;
+    font-size: 15px;
+    color: #FFFFFF;
+    width: 244px;
+    height: 57px;
+    background: #EB2D66;
+    box-shadow: 0 7px 35px rgba(235, 45, 102, 0.35);
+}
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.rem{
+    margin: 16px 0;
+    width: 10px;
+    height: 9px;
+    background: rgba(255, 252, 252, 0.96);
+
+}
+.mavic h2{
+    font-weight: 400;
+    font-size: 12px;
+    color: #FFFFFF;
+
+
+}
+.mavic h1{
+    font-weight: 900;
+    font-size: 15px;
+    line-height: 145.4%;
+    color: rgba(239, 234, 234, 0.85);
+}
+.mavic p{
+    padding: 18px 0;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: rgba(27, 199, 50, 0.96);
+}
+.dji{
+    width: 90%;
+    height: 516px;
+    background: rgba(49, 69, 255, 0.06);
+    position: relative;
+}
+
+.mavic{
+    position: absolute;
+    top: 240px;
+      left: 400px;
+}
+.bloc a{
+    font-size: 25px
+}
+.blok{
+
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.blocs  {
+    margin: 0 20px;
+     background: rgba(245, 238, 238, 0.23);
+    width: 39px;
+    height: 8px;
+}
+.blcs{
+    background: white;
+    width: 39px;
+    height: 8px;
+}
+.bloc{
+    display: flex;
+    align-items: flex-start;
+    /*justify-content: space-between;*/
+}
+.bloc{
+    position: absolute;
+    bottom: 160px;
+}
+
+.bloc a{
+    position: absolute;
+    left: 558px;
+}
+.oto{
+    position: absolute;
+    top: 20px;
+    /*bottom: 20px;*/
+    right: 70px;
+}
+.oto{
+    animation: to 2s ease-in-out;
+    transition: 2s;
+}
+.dron-img img:hover{
+    transform: rotate(3rad);
+}
+@keyframes to{
+  0%{
+    transform: translate(1000px);
+}
+    50% {
+        transform: translateY(600px);
+    }
+    30%{
+        transform:translateX(1000px) ;
+    }
+
+    100%{
+        transform: rotate(5rad);
+        opacity: 3;
+    }
+
+}
+#gorachi{
+    padding: 80px 0;
+}
+.gorachi-blocs{
+    margin: 20px 0;
+    width: 270px;
+    height: 470px;
+    background: #FFFFFF;
+    box-shadow: 0 15px 50px rgba(67, 76, 109, 0.08);
+
+}
+.vse{
+
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.vse label{
+    font-size: 13px;
+    color: #21243f;
+}
+.sena{
+    display: flex;
+    align-items:flex-start;
+    justify-content: flex-start;
+}
+.sen p{
+    padding: 0 20px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 19px;
+
+    color: #2C3BA0;
+
+}
+.gorachi-blocs img{
+    margin-left: 30px;
+}
+
+.se p{
+    padding: 5px 24px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 19px;
+
+    color: #2C3BA0;
+}
+.gorachi-blocs h1{
+    padding: 30px 23px;
+    font-weight: 900;
+    font-size: 17px;
+    color: #2A2D46;
+
+}
+.ena{
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.gorachi-input{
+    padding: 60px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.gorachi-input-w input{
+    display: none;
+}
+#iphone:checked~.gorachi-bloc2,
+#iphone:checked~.gorachi-bloc3,
+#iphone:checked~.gorachi-bloc4 {
+    opacity: 0.2;
+    transition: .4s;
+}
+#dron:checked~.gorachi-bloc1,
+#dron:checked~.gorachi-bloc2,
+#dron:checked~.gorachi-bloc4 {
+    opacity: 0.2;
+    transition: .4s;
+}
+#toys:checked~.gorachi-bloc1,
+#toys:checked~.gorachi-bloc2,
+#toys:checked~.gorachi-bloc3 {
+    opacity: 0.2;
+    transition: .4s;
+}
+#vse:checked~.gorachi-bloc1,
+#vse:checked~.gorachi-bloc2,
+#vse:checked~.gorachi-bloc3,
+#vse:checked~.gorachi-bloc4 {
+    opacity: 0.10;
+    transition: .4s;
+
+}
+.gorachi-input-w{
+    padding: 60px 198px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+}
+.gorachi-blocs {
+    animation: we 3s alternate ease-in-out;
+
+}
+@keyframes we {
+    0%{
+        opacity: 0.3;
+    }
+    50%{
+        opacity:1;
+    }
+    100%{
+        opacity: 0.3;
+    }
+
+}
+.kalpak{
+    color:  #9094BB;;
+    margin: 0 15px;
+    padding-bottom: 50px;
+    font-size: 30px;
+
+}
+.zamok0{
+    padding-top: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.zamok{
+    width: 470px;
+    height: 6px;
+    background: #0e26d2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.zamok div{
+    width: 47px;
+    height: 13px;
+    background: #9094BB;
+    box-shadow: 0 2px 10px rgba(46, 55, 101, 0.22);
+
+}
+.music-taitle{
+    position: relative;
+}
+#music{
+    padding: 50px 0;
+}
+.music-nov h1{
+    padding: 20px 0;
+    font-weight: 900;
+    font-size: 27px;
+    line-height: 121.4%;
+    color: #FFFFFF;
+}
+.music-nov p{
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+
+}
+.music-nov{
+    position: absolute;
+    top: 205px;
+    left: 115px;
+}
+.giveshin div{
+    position: absolute;
+    left: 99px;
+    top: 180px;
+    width: 30px;
+    height: 30px;
+    background: #f3f2ed;
+    clip-path: inset(5% 20% 29% 10%);
+
+}
+.giveshin2{
+    position: absolute;
+    left: 560px;
+    top: 100px;
+    width: 30px;
+    height: 30px;
+    background: #f8f7f2;
+    clip-path: polygon(6% 8%, 100% 15%, 35% 0%, 1% 77%, 21% 80%, 90% 25%, 90% 50%, 11% 35%, 71% 100%, 41% 0, 35% 50%, 81% 75%);
+
+}
+.music{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#cataloct{
+    padding: 70px 0;
+}
+.cataloct-taitke{
+    font-weight: 900;
+    font-size: 25px;
+    color: #2A2D46;
+
+}
+
+.cataloct{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.cifra-tell{
+    padding:  0;
+    font-weight: 900;
+    font-size: 25px;
+    color: #2A2D46;
+}
+
+.cifra-nov{
+  display: flex;
+    align-items: center;
+}
+.cifra-nov h1{
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 61px;
+    color: #2A2D46;
+
+}
+.cifra-nov h2{
+    padding: 010px;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: #2A2D46;
+
+}
+.cifra {
+    padding: 100px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+#footer{
+    padding:100px 0;
+    background: #343A62;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer-taitle{
+    display: flex;
+    align-items: center;
+}
+.footer-nov h1{
+    font-weight: 700;
+    font-size: 13px;
+    color: #FFFFFF;
+}
+.footer-nov p{
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 13px;
+    color: #FFFFFF;
+
+}
+.footer-icon a {
+    padding: 0 20px;
+    font-size: 12px;
+    line-height: 15px;
+    color: #FFFFFF;
+    transition: 2s;
+}
+.footer-icon a:hover{
+    color: red;
+    border-bottom: 2px solid brown;
+}
+.footer-button{
+    padding: 020px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer-button a{
+    font-size: 30px;
+
+}
+.footer-button p{
+    padding: 040px;
+    font-weight: 700;
+    font-size: 13px;
+    color: #FFFFFF;
+
+}
+.footer-button button{
+    width: 130px;
+    height: 30px;
+    border: 1px solid #EB2D66;
+    font-weight: 700;
+    font-size: 11px;
+    color: #EB2D66;
+    background: none;
+    animation: po 2s ease-in-out ;
+}
+@keyframes po {
+    0%{
+        transform: translateX(-1000px);
+    }
+
+}
+
+
+
